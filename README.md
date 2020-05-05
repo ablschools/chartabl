@@ -14,6 +14,7 @@ To make changes to this repository, please open a Pull Request.
 <h4>Prettier</h4>
 We use [Prettier](https://prettier.io/) to tighten up our code. You can install with `npm install -g prettier`
 To _prettify_ your code before committing, use this command
+
 ```
 prettier --write chartabl.js
 ```
