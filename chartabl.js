@@ -1,5 +1,5 @@
 var chartabl = {
-  function removeAxisLine(elements) {
-    elements.select('.domain').attr('stroke-width', 0);
+  removeAxisLine: function(elements) {
+    elements.select('.domain').attr('stroke-width', 0);  
   }
 };
