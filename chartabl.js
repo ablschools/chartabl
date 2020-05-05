@@ -9,7 +9,7 @@ var chartabl = {
   */
   removeAxisLine: function(elements) {
     elements.select('.domain').attr('stroke-width', 0);  
-  }
+  },
   
   /**
     Rotates text on the axis line 
@@ -18,7 +18,7 @@ var chartabl = {
   */
   rotateAxisText: function(elements, degrees) {
     elements.selectAll('text').attr('transform', 'rotate(' + degrees + ')');
-  }
+  },
 
   /**
     Styles axis text
