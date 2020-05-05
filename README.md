@@ -22,7 +22,9 @@ uglifyjs --output chartabl.min.js --compress --mangle -- chartabl.js
 <h4>Testing your changes</h4>
 Make changes in your text editor of choice in a branch that is *not* `master`. Commit the changes with `git`, and push up the branch using `git push origin <your_branch>`. 
 Update your `script` tag in your development report with
+
 ```
   <script src="https://raw.githubusercontent.com/ablschools/chartabl/<your_branch>/chartabl.min.js"></script>
 ```
+
 And verify the changes work.
