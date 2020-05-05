@@ -13,7 +13,7 @@ To make changes to this repository, please open a Pull Request.
 
 <h4>Minification</h4>
 If you are modifying javascript, make sure to update the minified version of the javascript file as well. 
-To minify, we use [Uglify-JS](https://github.com/mishoo/UglifyJS). You can then run the following command from the project directory.
+We use [UglifyJS](https://github.com/mishoo/UglifyJS). You can then run the following command from the project directory.
 
 ```
 uglifyjs --output chartabl.min.js --compress --mangle -- chartabl.js
