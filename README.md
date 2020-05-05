@@ -1,5 +1,5 @@
 # chartabl
-Helpers for our data visualizations. https://ablschools.github.io/chartabl/
+Helpers for our data visualizations.
 
 To add `chartable.js` to your project, include it in your project with a script tag.
 
