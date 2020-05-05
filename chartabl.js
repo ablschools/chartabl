@@ -28,12 +28,12 @@ var chartabl = {
   styleAxisText: function(elements, axis) {
     var axisTest = elements.selectAll('text');
 
-    axisText.
+    axisText
       .style("color", '#333E6B')
       .style("font-size", "14px");
     
     if (axis === 'x') {
-      axisText.
+      axisText
         .attr("transform", "translate(-10,-15)rotate(-90)")
         .style("text-anchor", "start")
         .style("font-weight", 'bold');
