@@ -26,7 +26,7 @@ var chartabl = {
     @param String - axis. A lowercase string representing the axis, either 'x' or 'y'. 
   */
   styleAxisText: function(elements, axis) {
-    var axisTest = elements.selectAll('text');
+    var axisText = elements.selectAll('text');
 
     axisText
       .style("color", '#333E6B')
