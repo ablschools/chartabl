@@ -36,7 +36,7 @@ var chartabl = {
       axisText.
         .attr("transform", "translate(-10,-15)rotate(-90)")
         .style("text-anchor", "start")
-        .style("font-weight", 'bold')
+        .style("font-weight", 'bold');
     }
   }
 };
