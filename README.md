@@ -4,7 +4,7 @@ Helpers for our data visualizations
 To add `chartable.js` to your project, include it in your project with a script tag.
 
 ```
-  <script src="https://ablschools.github.io/chartabl/chartabl.js"></script>
+  <script src="https://ablschools.github.io/chartabl/chartabl.min.js"></script>
 ```
 
 <h2>Making Changes</h2>
